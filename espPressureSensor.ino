@@ -58,7 +58,6 @@ float fRDivider = R2/(Rs+R1+R2);
 int offset = int(Vzero * fRDivider * 1023);
 int fullscale = int(Vmax * fRDivider * 1023);
 
-float pressure; // measured pressure
 
 void setup() {
   Serial.begin(115200);
